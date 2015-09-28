@@ -8,12 +8,12 @@ count = 0
   elsif count % 5 == 0 && count % 7 == 0
     puts "SuperBuzz"
   elsif count % 3 == 0
-      puts "Fizz"
-    elsif count % 5 == 0
-      puts "Buzz"
-    elsif count % 7 == 0
-      puts "Super"
+    puts "Fizz"
+  elsif count % 5 == 0
+    puts "Buzz"
+  elsif count % 7 == 0
+    puts "Super"
   else
-  puts count
-end
+    puts count
+  end
 end
